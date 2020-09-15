@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import LightStatus from "./LightStatus"
+import Login from './Login';
 
 const Header = ({ siteTitle }) => (
   <header
@@ -31,6 +32,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
       <LightStatus />
+      <Login />
     </div>
   </header>
 )

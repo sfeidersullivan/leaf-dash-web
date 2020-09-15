@@ -100,7 +100,7 @@ const DataLog = (props) => {
 
 DataLog.propTypes = {
   // required
-  variable: PropTypes.oneOf(['temperature, humidity']).isRequired,
+  variable: PropTypes.oneOf(['temperature', 'humidity']).isRequired,
   yMin: PropTypes.number.isRequired,
   yMax: PropTypes.number.isRequired,
   // optional
