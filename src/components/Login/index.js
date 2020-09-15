@@ -40,19 +40,21 @@ const Login = () => {
 
   return (
     <>
-      <h4><button
-        style={{
-          height: '2rem',
-          border: '2px solid gray',
-          borderRadius: 5,
-          background: 'none',
-          color: 'white',
-          textAlign: 'center',
-        }}
-        onClick={handleModalOpen}
-      >
-        Login
-      </button></h4>
+      <h4>
+        <button
+          style={{
+            height: '2rem',
+            border: '2px solid gray',
+            borderRadius: 5,
+            background: 'none',
+            color: 'white',
+            textAlign: 'center',
+          }}
+          onClick={handleModalOpen}
+        >
+          Login
+        </button>
+      </h4>
       <ReactModal
         isOpen={modalIsOpen}
         onRequestClose={handleModalClose}
