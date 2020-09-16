@@ -70,7 +70,8 @@ const DataLog = (props) => {
 
   useEffect(() => {
     const interval = setInterval(async () => {
-      const { result } = await getParticleVariable(variable);
+      const { result, error } = await getParticleVariable(variable);
+      if (error) console.log(error);
       const temp = typeof result === 'number' ? +result.toFixed(1) : null;
       setData(prevData => {
         const [first, ...rest] = prevData;
