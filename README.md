@@ -3,7 +3,7 @@ A web dashboard for monitoring environmental conditions
 
 ## 🧰 Dependencies
 1. The Particle API is used to fetch and poll data from Particle iot devices. You will need both a Partile iot device and account.
-1. Modify Particle device id and variables in `src/api/index.js`
+1. Modify Particle variables in `src/api/index.js`
 
 ## 🚀 Quick start
 1.  **Start developing.**
